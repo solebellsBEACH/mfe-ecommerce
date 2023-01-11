@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const TopPage = styled.div`
+margin-bottom: 10vh;
   width: 100%;
   background-color: #ededf5;
   height: 70vh;
