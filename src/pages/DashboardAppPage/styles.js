@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const TopPage = styled.div`
-margin-bottom: 10vh;
+  margin-bottom: 10vh;
   width: 100%;
   background-color: #ededf5;
   height: 70vh;
@@ -40,19 +40,21 @@ margin-bottom: 10vh;
       margin-left: 2%;
     }
     @media (max-width: 700px) {
-width: 100%;
-display: flex;
-flex-direction: column;
-align-items:center;
-  }
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   h1 {
     margin: -1%;
     color: #eac00a;
+    text-shadow: 2px 2px 2px #000;
   }
   h2 {
     margin: -1%;
     color: #fa494f;
+    text-shadow: 1px 1px 1px #000;
   }
 `;
